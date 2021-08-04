@@ -1,0 +1,1 @@
+run = "clang++-7 -I. -I./include -std=c++17 -pthread -o single-file-classes main.cpp lib/libscn.a lib/libfmt.a && ./single-file-classes"
